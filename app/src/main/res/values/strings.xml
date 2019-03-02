@@ -1,0 +1,26 @@
+<resources>
+    <string name="titulo">Nombres en Clave</string>
+    <string name="parrafo1">¡Un juego que despertará tu mente, un tablero con nombres en clave de agentes secretos hará de ti un ser pensante!!</string>
+    <string name="parrafo2">Tu misión en compañía con tu equipo será encontrar a tus agentes espías que forman parte de tu equipo, el reto es encontrar a todos tus agentes primero que tu equipo contrario, cuidado si descubres al asesino mortal tu equipo habrá perdido.</string>
+    <string name="parrafo3">Los maestros de espías saben las identidades secretas de los 25 personajes. Sus compañeros de equipo, en cambio, sólo conocen a los agentes a partir de su nombre en clave. Los maestros de espías se irán alternando para aportar pistas compuestas por una sola palabra. Una pista puede relacionarse con varias de las palabras que hay sobre la mesa. Los agentes intentarán luego adivinar a qué palabras se refiere su jefe</string>
+    <string name="sub1">MISIÓN</string>
+    <string name="parrafo4">Al iniciar partida se te asignará un rol aleatorio, podrás tomar el papel de maestro espía o espía operario, cada rol con sus respectivas operaciones por llevar a cabo para cumplir su misión.</string>
+    <string name="parrafo5">•	Maestro espía: Tendrá un tablero específico donde podrá observar las posiciones de sus agentes secretos, identificados por una palabra clave, la función de este rol será enviar pistas a los espías operarios para que estos adivinen las posiciones de los agentes secretos de su equipo.</string>
+    <string name="parrafo6">•	Espía operario: Su función será la de adivinar donde se encuentran los agentes secretos del equipo al que perteneces, una vez recibida la pista que nos ha enviado el maestro espía.</string>
+    <string name="sub2">ROLES</string>
+    <string name="parrafo7">Si eres el maestro de espías, tendrás que pensar en una pista de una sola palabra que se relacione con algunos de los nombres en clave que tu equipo intenta adivinar.</string>
+    <string name="parrafo8">Cuando el maestro de espías dé una pista, sus agentes intentarán adivinar a qué se refiere. </string>
+    <string name="sub3">CONTACTAR</string>
+    <string name="parrafo9">Si el espía operario toca una carta que pertenece a su equipo, los agentes podrán seguir adivinando.</string>
+    <string name="parrafo10">Si el espía operario toca a un civil inocente, habrá concluido su turno. </string>
+    <string name="parrafo11">Si el espía operario toca a un civil inocente, habrá concluido su turno. </string>
+    <string name="parrafo12">Si el espía operario toca una carta que pertenece al otro equipo, con esto habrá concluido su turno y además habrá ayudado al otro equipo. </string>
+    <string name="parrafo13">Si el agente toca al asesino, la partida finalizará y el equipo que haya contactado con el asesino perderá.</string>
+
+
+    <string name="app_name">Codenames</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

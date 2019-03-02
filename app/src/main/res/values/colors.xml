@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDarkGrey">#455A64</color>
+    <color name="White">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="grandStop">#D84315</color>
+    <color name="gradStart">#FF8A65</color>
+    <color name="gray">#808080</color>
+    <item name="blue" type="color">#2196f3</item>
+    <item name="purple" type="color">#9c27b0</item>
+    <item name="green" type="color">#1b5e20</item>
+    <item name="orange" type="color">#ff5722</item>
+    <item name="red" type="color">#f44336</item>
+    <item name="yellow" type="color">#F7C206</item>
+
+    <integer-array name="initial_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/orange</item>
+        <item>@color/green</item>
+        <item>@color/purple</item>
+        <item>@color/gradStart</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/ti_roomname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/child_margin_top"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorAccent">
+
+        <EditText
+            android:id="@+id/et_roomname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de la sala"
+            android:inputType="number"
+            android:textColor="@color/colorAccent"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/btn_createroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ti_roomname"
+        android:layout_alignParentLeft="true"
+        android:text="Unirse"
+        android:layout_marginTop="@dimen/button_margin"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ti_roomname"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/button_margin"
+        android:text="Cancel" />
+</RelativeLayout>

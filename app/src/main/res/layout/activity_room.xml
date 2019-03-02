@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Pantallas.Room">
+    <ImageButton
+        android:id="@+id/imgView_log"
+        android:layout_width="200dp"
+        android:layout_height="200sp"
+        android:layout_marginBottom="0dp"
+        android:paddingTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@color/transparent"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/users2" />
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="30dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="id"
+        android:textSize="30dp"
+        android:textColor="@color/yellow"
+
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/White"
+        android:text="id"
+        android:textSize="30dp"
+        android:id="@+id/gameid"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/yellow"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="posición"/>
+        <TextView
+            android:textColor="@color/White"
+            android:textSize="30dp"
+            android:text="posicion"
+            android:id="@+id/txtpos"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="30dp"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Equipo"/>
+        <TextView
+            android:textColor="@color/White"
+            android:textSize="30dp"
+            android:text="team"
+            android:id="@+id/team"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="30dp"
+            android:textColor="@color/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rol"/>
+        <TextView
+            android:textColor="@color/White"
+            android:textSize="30dp"
+            android:text="rol"
+            android:id="@+id/rol"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:text="admin"
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="190dp"
+        android:textColor="@color/White"
+        android:layout_height="40dp"
+        android:id="@+id/btnplay"
+        android:textAlignment="gravity"
+        android:background="@drawable/btn_bg"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="jugar" />
+
+
+
+
+
+</LinearLayout>

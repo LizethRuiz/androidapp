@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".Pantallas.menu">
+
+
+
+    <ImageButton
+        android:id="@+id/imgView_log"
+        android:layout_width="500dp"
+        android:layout_height="300sp"
+        android:layout_marginBottom="0dp"
+        android:paddingTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparent"
+        android:layout_marginLeft="110dp"
+        android:src="@drawable/users2" />
+
+
+    <RelativeLayout
+
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgView_log"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp">
+
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="sans-serif"
+            android:id="@+id/whowe"
+            android:text="¿Cómo se juega?"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_ingresar"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="Jugar"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="16sp" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
